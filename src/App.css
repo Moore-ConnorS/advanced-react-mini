@@ -20,7 +20,22 @@
   margin: 20px;
 }
 
+/* className in PokemonDisplay for the div rendering {pokeList} */
+.pokemon-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  /* background: green; */
+}
+
 .pokemon-display {
   display: flex;
   justify-content: center;
+  flex-direction: column;
+  margin: 10px;
+}
+
+.pokemon-display > div {
+  margin: 3px;
 }

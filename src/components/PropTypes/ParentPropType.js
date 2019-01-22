@@ -1,12 +1,12 @@
-import React, {Component} from 'react';
+import React, { Component } from 'react';
 import PropTypes from './PropTypes';
 
 class ParentPropType extends Component {
-    render(){
+    render() {
         return (
-        <div>
-            <PropTypes />
-        </div>
+            <div>
+                <PropTypes name='Sean' />
+            </div>
         )
     }
 }
